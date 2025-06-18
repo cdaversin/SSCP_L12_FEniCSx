@@ -1,9 +1,8 @@
-name: fenicsx_sscp_2025_2
+name: fenicsx_sscp_2025_3
 channels:
   - conda-forge
 dependencies:
   - fenics-dolfinx
   - pip
-  - pip:
-    - pyvista
-    - matplotlib
+  - pyvista
+  - matplotlib

@@ -24,10 +24,9 @@ The stable FEniCSx Docker container can be run using the following command.
 Note : the option `-v` is used to share the current directory `($pwd)` of the host machine with the Docker container. Therefore, we recommand to run the command within the `SSCP_L12_FEniCSx` directory to give the Docker container access to the example scripts.
 
 ```
-docker run -it --name sscp_2025 -v $(pwd):/home dolfinx/dolfinx:stable
+docker run -it --name sscp_2025 -v $(pwd):/home/shared -w /home/shared dolfinx/dolfinx:stable
 ```
 The scripts require the installation of additional dependencies that can be installed with `pip`:
 ```
-pip install matplotlib
 pip install pyvista
 ```
