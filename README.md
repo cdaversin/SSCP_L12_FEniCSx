@@ -26,3 +26,8 @@ Note : the option `-v` is used to share the current directory `($pwd)` of the ho
 ```
 docker run -it --name sscp_2025 -v $(pwd):/home dolfinx/dolfinx:stable
 ```
+The scripts require the installation of additional dependencies that can be installed with `pip`:
+```
+pip install matplotlib
+pip install pyvista
+```
