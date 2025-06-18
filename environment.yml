@@ -1,0 +1,5 @@
+name: fenicsx_sscp_2025
+channels:
+  - conda-forge
+dependencies:
+  - fenics-dolfinx
